@@ -84,6 +84,9 @@ Update our index.html with bootstrap.
 
 
 ```
+
+<br>
+
 Running the application should result in this.
 
 
