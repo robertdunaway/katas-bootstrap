@@ -3,15 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+
 </head>
 <body>
-    <h1>001 Bootstrap Setting up ng2-bootstrap</h1>
 
-    <script src="../lib/es6-shim/es6-shim.min.js"></script>
-    <script src="../lib/angular2/bundles/angular2-polyfills.min.js"></script>
     <script src="../lib/systemjs/dist/system.src.js"></script>
-    <script src="../lib/rxjs/bundles/rx.min.js"></script>
-    <script src="../lib/angular2/bundles/angular2.min.js"></script>
 
     <script>
         System.config({
@@ -26,7 +22,24 @@
               .then(null, console.error.bind(console));
     </script>
 
-    <hello-world></hello-world>
+    <div class="container-fluid">
+        <h1>001 Bootstrap Setting up ng2-bootstrap</h1>
+
+        <br />
+
+        <a class="btn btn-default btn-lg" role="button" href="#">bootstrap button</a>
+
+        <div class="well-lg">
+
+            <hello-world></hello-world>
+
+        </div>
+    </div>
+
+    <script src="../lib/es6-shim/es6-shim.min.js"></script>
+    <script src="../lib/angular2/bundles/angular2-polyfills.min.js"></script>
+    <script src="../lib/rxjs/bundles/rx.min.js"></script>
+    <script src="../lib/angular2/bundles/angular2.min.js"></script>
 
 </body>
 </html>
