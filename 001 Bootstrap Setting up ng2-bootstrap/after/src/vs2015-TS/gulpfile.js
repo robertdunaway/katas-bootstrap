@@ -90,9 +90,10 @@ gulp.task('tsd', function () {
 gulp.task('libs', function () {
     return gulp.src(['bower_components/**//normalize-css/normalize.css'
                     , 'bower_components/**//font-awesome/css/font-awesome.min.css'
-                    , 'bower_components/**/font-awesome/fonts/*.*'
+                    , 'bower_components/**/font-awesome/fonts/**'
                     , 'bower_components/**//jquery/dist/jquery.min.js'
                     , 'bower_components/**//lodash/lodash.min.js'
+                    , 'bower_components/**//bootstrap/dist/**'
                     
                     // for angular2
                     , 'node_modules/**//es6-shim/es6-shim.min.js'
@@ -101,6 +102,7 @@ gulp.task('libs', function () {
                     , 'node_modules/**//rxjs/bundles/rx.min.js'
                     , 'node_modules/**//angular2/bundles/angular2.min.js'
                     , 'node_modules/**//angular2/bundles/angular2.dev.js'
+                    , 'node_modules/**//ng2-bootstrap/components/**'
                     
     ])
       .pipe(plumber({
@@ -122,8 +124,8 @@ gulp.task('reload', function () {
 // Default Task
 // ----------------------------------------------------------------
 gulp.task('default', function () {
-    runSequence('clean-wwwroot', 'copy-to-wwwroot', 'libs',
-                ['minifyhtml', 'tscompile', 'tslint']
+    runSequence('clean-wwwroot', 'copy-to-wwwroot', 
+                ['libs', 'minifyhtml', 'tscompile', 'tslint']
                 , 'watch'
                 );
 });
