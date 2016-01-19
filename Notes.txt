@@ -7,7 +7,9 @@ Use interview questions for katas.
 
 
 
-
+ng2-bootstrap
+- http://valor-software.github.io/ng2-bootstrap/index-bs4.html
+- https://github.com/valor-software/ng2-bootstrap
 
 
 
