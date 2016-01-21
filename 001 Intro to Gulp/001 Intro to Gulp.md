@@ -54,12 +54,10 @@ The days of the casual web developer are over.  Since the advent of Visual Studi
 
 We are bombarded with a daily litany of new technologies “required” to build modern applications.  While every new technology might not actually be “required” it’s important to have some understanding of each technology's place in this world.  
 
-<br>
 
-This book is intended to get Gulp, a task runner, up and running for you today.  It’s not intended to give you hidden secrets or even a thorough accounting of the Gulp API.  Simply to get you up and running with working examples.
 
 ###HOW TO USE THIS TUTORIAL
-Working through this tutorial will expose you to a handful of the most important tasks you may need.  I recommend following the tutorial, moving from chapter to chapter, in sequence.  During this process you’ll experience some difficulties and resolving these will give you greater understanding of Gulp, Node, and NPM.
+Working through this tutorial will expose you to a handful of the most important tasks you may need.  I recommend following the exercises, moving from kata to kata, in sequence.  During this process you may experience some difficulties and resolving these will give you greater understanding of Gulp, Node, and NPM.
 
 <br>
 
