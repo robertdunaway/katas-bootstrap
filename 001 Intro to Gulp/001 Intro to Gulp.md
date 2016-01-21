@@ -41,6 +41,7 @@ Book:
 ## Instructions
 Get tutorial folder or the entire katas-Gulp repo.
 Open the `[before/*.sln]` file and execute the kata.
+
 Feel free to execute this kata multiple times because repetition creates motor memory.
 
 
