@@ -61,11 +61,15 @@ Working through this tutorial will expose you to a handful of the most important
 
 <br>
 
-After you’ve completed the tutorial, pick a few tasks and apply them to your own project.  Start with minification of your JavaScript and CSS.  
+After you’ve completed these katas, pick a few tasks and apply them to your own project.  Start with minification of your JavaScript and CSS.  
 
 <br>
 
-Another common task is concatenating multiple JavaScript files together as this is a current common practice for performance.  This is to compensate for a shortcoming of HTTP protocol.  With the adoption of HTTP2, you will no longer be required to concatenate files for performance.
+> Another common task is concatenating multiple JavaScript files
+> together as this is a current common practice for performance.  This
+> is to compensate for a shortcoming of HTTP protocol.  With the
+> adoption of HTTP2, you will no longer be required to concatenate files
+> for performance.
 
 <br>
 
