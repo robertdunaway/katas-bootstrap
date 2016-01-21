@@ -52,7 +52,7 @@ The days of the casual web developer are over.  Since the advent of Visual Studi
 
 ###WHY GULP
 
-We are bombarded with a daily litany of new technologies “required” to build modern applications.  While every new technology might not actually be “required” it’s important to have some understanding of each technologies place in this world.  
+We are bombarded with a daily litany of new technologies “required” to build modern applications.  While every new technology might not actually be “required” it’s important to have some understanding of each technology's place in this world.  
 
 <br>
 
