@@ -48,7 +48,7 @@ Feel free to execute this kata multiple times because repetition creates motor m
 # Introduction to Gulp
 
 
-The days of the casual web developer are over.  Since the advent of Visual Studio and other IDEs it’s been possible to build post back styled line-of-business application with only a rudimentary understanding of web programming.  ASP.NET developers tended toward tolerating JavaScript and hoping ASP.NET would generate the proper JavaScript.
+The days of the casual web developer are over.  Since the advent of Visual Studio and other IDEs it’s been possible to build post back styled line-of-business applications with only a rudimentary understanding of web programming.  ASP.NET developers tended toward tolerating JavaScript and hoping ASP.NET would simply generate the proper JavaScript.
 
 ###WHY GULP
 
